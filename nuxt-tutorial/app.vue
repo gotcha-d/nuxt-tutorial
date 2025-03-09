@@ -2,6 +2,8 @@
 import TheBaseSection from './components/TheBaseSection.vue';
 import type { Member } from './interfaces';
 
+// memberListをステートとして用意
+// コンポーネントを跨いで利用できるリアクティブデータとして扱える
 useState<Map<number, Member>>(
   "memberList",
   (): Map<number, Member> => {
