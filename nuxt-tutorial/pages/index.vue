@@ -9,6 +9,9 @@
     </ul>
   </nav>
   <section>
-    <p>会員管理はこちら</p>
+    <p>
+      会員管理は
+      <NuxtLink :to="{name: 'member-memberList'}">こちら</NuxtLink>
+    </p>
   </section>
 </template>
